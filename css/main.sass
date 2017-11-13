@@ -9,6 +9,8 @@
   @include clearfix
 
 $rs: 16px
+$photosize_mult: 10
+$text_logo_mult: 3
 
 $font-serif: Linux Libertine
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
@@ -41,25 +43,25 @@ body
 
 .logo-readium
   position: fixed
-  left: 10px
-  top: 10px
-  width: $rs*3
-  height: $rs*3
-  background-color: #000
+  left: 10+$rs/2
+  top: 10+$rs/2
+  width: $rs*$text_logo_mult
+  height: $rs*$text_logo_mult
+  //background-color: #000
   overflow: hidden
   z-index: 99
   .logo
     display: block
     position: absolute
-    top: $rs/2
-    left: $rs/2
-    width: $rs*2
-    height: $rs*2
-    background-size: cover
+    top: 0
+    left: 0
+    width: $rs*$text_logo_mult
+    height: $rs*$text_logo_mult
+    background-size: contain
     background-repeat: no-repeat
 
 .teaserimage
-  height: 450px
+  height: 300px
   position: relative
   overflow: hidden
   background-color: #000
@@ -74,6 +76,19 @@ body
     z-index: 1
     text-indent: -9999px
 
+.blog-institutions
+  height: $rs*3
+  width: 100%
+  display: block
+  text-align: center
+  padding: 0 0 30px
+  img
+    filter: grayscale(100%) opacity(30%)
+    max-height: 100%
+    padding: 10px
+    width: auto
+    display: inline-block
+
 .blog-header
   width: 100%
   max-width: 640px
@@ -83,13 +98,14 @@ body
   @include box-sizing(border-box)
   @include respond-to(800)
     padding: 0 $rs
+
   .blog-logo
-    width: $rs*7.5
-    height: $rs*7.5
+    width: $rs*$photosize_mult
+    height: $rs*$photosize_mult
     position: absolute
-    top: -$rs*3.75
+    top: -$rs*$photosize_mult*0.5
     right: 50%
-    margin-right: -$rs*3.75
+    margin-right: -$rs*$photosize_mult*0.5
     background-size: cover
     border-radius: 50%
     z-index: 99
@@ -101,7 +117,7 @@ body
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
   .blog-title
     margin: 0
-    padding: $rs*5.25 $rs $rs/2
+    padding: $rs*6 $rs $rs/2
     font-size: 50px
     text-align: center
     font-weight: 700
@@ -113,20 +129,30 @@ body
   .blog-description
     margin: 0 0 20px
     padding: 0 $rs*2
-    font-size: $rs/8*9
+    font-size: $rs*1.1
     line-height: 1.5
     color: #666
     text-align: center
     font-weight: 400
   .custom-links
-    margin: 0 0 50px
-    text-align: center
     color: #ccc
-    a
-      text-decoration: none
-      color: #999
-      &:hover
-        color: #333
+  .links-left
+    //margin: 50px $rs*5.5 0 0
+    width: auto
+    font-size: $rs*2
+    //text-align: right
+    float: left
+  .links-right
+    //margin: 50px 0 0 $rs*5.5
+    width: auto
+    font-size: $rs*2
+    text-align: left
+    float: right
+  a
+    text-decoration: none
+    color: #999
+    &:hover
+      color: rgb(85, 26, 139)
 
 .content
   width: 100%
