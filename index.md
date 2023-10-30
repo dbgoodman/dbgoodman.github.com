@@ -4,7 +4,7 @@ layout: welcome
 ---
 ### Applying to tenure-track faculty positions for the 2023/2024 application cycle. 
 I am currently applying to faculty positions, and am excited to start a new academic research group in the coming year.
-**[Here is my curriculum vitae](assets/2023.08.31.dbg_cv.pdf)** - [please reach out with any opportunities!](mailto:dbgoodman@gmail.com)
+**[Here is my curriculum vitae](assets/2023.10.23.dbg_cv.pdf)** - [please reach out with any opportunities!](mailto:dbgoodman@gmail.com)
 
 ### Using novel high-throughput approaches to understand and engineer the immune system.
 
