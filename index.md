@@ -2,9 +2,21 @@
 title: Daniel B. Goodman
 layout: welcome
 ---
-### Applying to tenure-track faculty positions for the 2023/2024 application cycle. 
-I am currently applying to faculty positions, and am excited to start a new academic research group in the coming year.
-**[Here is my curriculum vitae](assets/2023.10.23.dbg_cv.pdf)** - [please reach out with any opportunities!](mailto:dbgoodman@gmail.com)
+
+<div style="background-color: #f2f2f2; border: 1px solid #d3d3d3; border-radius: 45px; padding: 20px; text-align: center;">
+	Coming in 2025 to Philadelphia:
+	<h3> The Goodman Lab for Synthetic Immunology</h3>
+
+<div style="text-align: center;">
+	<img src="assets/penn_med_logo.png" alt="The Goodman Lab for Synthetic Immunology at the University of Pennsylvania" style="width:70%;">
+</div>
+</div>
+
+I'm thrilled to start work in [my own laboratory](https://twitter.com/dbgoodman/status/1848752674076037162) at [The University of Pennsylvania in the Department of Cancer Biology](https://www.med.upenn.edu/cbio/). My lab will be located in the [Center for Ceullar Immunotherapies](https://www.med.upenn.edu/cci/) on the Medical School Campus, and will open officially in July 2025.
+
+Watch this space for more info (and a new lab website!), and please [reach out](mailto:dbgoodman@gmail.com) if you are interested in working with us.
+
+---
 
 ### Using novel high-throughput approaches to understand and engineer the immune system.
 
