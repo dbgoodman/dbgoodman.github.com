@@ -3,7 +3,7 @@ title: Daniel B. Goodman
 layout: welcome
 ---
 
-<div style="background-color: #f2f2f2; border: 1px solid #d3d3d3; border-radius: 45px; padding: 20px; text-align: center;">
+<div style="background-color: #f2f2f2; border: 1px solid #d3d3d3; border-radius: 25px; padding: 20px; padding-bottom: 60px; text-align: center;">
 	Coming in 2025 to Philadelphia:
 	<h3> The Goodman Lab for Synthetic Immunology</h3>
 
